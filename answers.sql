@@ -40,7 +40,7 @@ CREATE TABLE `employees` (
 
 LOCK TABLES `employees` WRITE;
 /*!40000 ALTER TABLE `employees` DISABLE KEYS */;
-INSERT INTO `employees` VALUES (1,'Alice','Johnson','alice@example.com','Sales Rep'),(2,'Bob','Smith','bob@example.com','Manager');
+INSERT INTO `employees` VALUES (1,'Alice','Johnson','alice@gmail.com','Sales Rep'),(2,'Bob','Smith','bob@gmail.com','Manager');
 /*!40000 ALTER TABLE `employees` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
